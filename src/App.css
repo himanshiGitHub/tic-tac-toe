@@ -86,5 +86,17 @@ ul {
 }
 
 .game-info {
-  margin-left: 20px;
+  margin: 20px;
+}
+
+.game-board {
+  margin: 20px;
+}
+
+.btn-info {
+  width: 140px;
+  height: 30px;
+  background-color: whitesmoke;
+  box-shadow: inset;
+  margin-bottom: 5px;
 }
