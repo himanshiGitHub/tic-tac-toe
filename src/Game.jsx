@@ -39,7 +39,7 @@ class Game extends React.Component {
     const hitory = this.state.history;
     let currentSquare = hitory[this.state.stepNumber];
     let status;
-    const winner = this.calculateWinner(currentSquare);
+    const winner = this.calculateWinner(currentSquare.squares);
     if (winner) {
       status = "Winner is : " + winner;
     } else {
